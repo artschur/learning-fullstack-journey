@@ -6,7 +6,7 @@ h1 {
   align-items: center;
   z-index: 10;
   margin-bottom: 70px;
-  text-decoration: pink underline;
+  text-decoration: magenta underline;
   letter-spacing: 4px;
   font-size: 100px;
 }
