@@ -1,0 +1,24 @@
+span {
+  background-color: pink;
+  border: 1px black solid;
+  width: 1000px;
+  padding: 50px;
+  margin: 50px;
+}
+
+h1 {
+  background-color: palegreen;
+  border: 1px black solid;
+  width: 150;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: paleturquoise;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 0px 50px;
+}
