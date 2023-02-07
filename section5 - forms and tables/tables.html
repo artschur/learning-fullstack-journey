@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heaviest Birds</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Heaviest Birds</h1>
+    <article>
+        <table>
+            <thead> <!-- for 2 row of height headers-->
+                <tr> <!-- a row with the headers-->
+                    <th>Animal</th>
+                    <th>Average Mass</th>
+                    <th>Maximum Mass</th>
+                    <th>Flighted</th>
+                </tr>
+            </thead>
+            <tbody> <!--smantic markup.
+                    better source code reading-->
+                <tr> <!--new row-->
+                    <td>Ostrich</td> <!--data cells-->
+                    <td>104(230)</td>
+                    <td>156.8(346)</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Somali Ostrich</td>
+                    <td>90(200)</td>
+                    <td>130(287)</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Wild Turkey</td>
+                    <td>13.5(29.8)</td>
+                    <td>39(84)</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>King Penguin</td>
+                    <td>24(50)</td>
+                    <td>32.5(73)</td>
+                    <td>No</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>V2</h2>
+        <table>
+            <thead> <!-- for 2 row of height headers-->
+                <tr> <!-- a row with the headers-->
+                    <th rowspan="2">Animal</th>
+                    <th colspan="2">Average Mass</th>
+
+                    <th>Flighted</th>
+                </tr>
+                <tr>
+
+                    <th>Kg</th>
+                    <th>Lb</th>
+                </tr>
+            </thead>
+            <tbody> <!--smantic markup.
+                    better source code reading-->
+                <tr> <!--new row-->
+                    <td>Ostrich</td> <!--data cells-->
+                    <td>104</td>
+                    <td>230</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Somali Ostrich</td>
+                    <td>90</td>
+                    <td>200</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Wild Turkey</td>
+                    <td>13.5</td>
+                    <td>29.8</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>King Penguin</td>
+                    <td>24</td>
+                    <td>50</td>
+                    <td>No</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table>
+            <thead>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+            </thead>
+        </table>
+    </article>
+
+</body>
+
+</html>

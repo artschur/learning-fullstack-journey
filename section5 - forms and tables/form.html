@@ -1,0 +1,101 @@
+<!--is an div for form like sections
+    uses inputs(email, passwords bla bla bla)-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMS</title>
+  </head>
+
+  <body>
+    <h1>Forms demo</h1>
+    <!--action in where this data should be sent to-->
+    <form action="/tacos">
+      <p>
+        <label for="username">Enter a username:</label>
+        <input type="text" placeholder="" name="username" id="username" />
+        <button>hey</button>
+      </p>
+      <p>
+        <label for="password">Enter your password</label>
+        <input
+          type="password"
+          placeholder="password"
+          name="password"
+          id="password"
+        />
+      </p>
+
+      <p>
+        <label for="color"
+          >Enter your color
+          <input type="color" name="clr" id="color" />
+        </label>
+      </p>
+
+      <input type="number" placeholder="enter a number" name="" id="" />
+      <input type="time" name="" id="" />
+    </form>
+
+    <div class="preference">
+      <label for="peas">do you like peas</label>
+      <!--is assigned with the checkbox input-->
+      <input type="checkbox" name="peas" id="peas" />
+      <!--we are interlinking both
+        the label and the input together. THey accordingly and when i click the label 
+        text, the checkbox is activated. The id is the one that links them both-->
+    </div>
+
+    <form action="https://www.reddit.com/search/" method="GET">
+      <label for="reddit">Search through reddit</label>
+      <input type="text" name="q" />
+      <input type="submit" value="Search Reddit" />
+    </form>
+
+    <form action="https://www.youtube.com/results">
+      <p>
+        <input
+          type="text"
+          name="search_query"
+          id="search"
+          placeholder="search youtube"
+        />
+      </p>
+    </form>
+    <hr />
+    <form action="/tacos">
+      <p>
+        <label for="apple">apple</label>
+        <input type="checkbox" name="apple" id="apple" />
+        <button>hey</button>
+      </p>
+    </form>
+
+    <form action="/tacos">
+      <label for="aldo">aldo</label>
+      <input type="radio" name="child" id="aldo" />
+      <label for="peter">peter</label>
+      <input type="radio" name="child" id="peter" />
+    </form>
+
+    <hr />
+    <form action="/pizza">
+      <input
+        type="range"
+        name="volume"
+        id="volume"
+        min="1"
+        max="100"
+        step="9"
+      />
+      <label for="volume"></label>
+      <button>submit</button>
+    </form>
+    <hr />
+    <label for="preference"></label>
+    <textarea name="preference" id="preference" cols="50" rows="10"></textarea>
+  </body>
+</html>
