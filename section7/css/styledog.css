@@ -1,0 +1,18 @@
+/* YOUR CODE GOES IN HERE */
+.card {
+  width: 210px;
+  border: 1px gray solid;
+  border-radius: 1rem;
+  padding: 20px;
+  background-color: #023047;
+}
+.card img {
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid #ffb703;
+}
+
+.card h1 {
+  text-align: center;
+  color: #8ecae6;
+}
