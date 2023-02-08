@@ -1,0 +1,12 @@
+section {
+  width: 500px;
+  height: 500px;
+  background-color: magenta;
+}
+
+div {
+  width: 50%;
+  height: 50%;
+  background-color: #2b2a33;
+  opacity: 0.9;
+}

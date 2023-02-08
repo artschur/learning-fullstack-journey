@@ -1,17 +1,58 @@
+* {
+  margin: 0;
+}
+
 section {
   width: 600px;
   height: 600px;
   background-color: #22333b;
 }
+html {
+  font-size: 20px;
+  font-family: -apple-system;
+  color: white;
+  background-color: #22333b;
+}
 
 div {
   background-color: #c6ac8f;
-  width: 50%;
-  height: 50%;
+  width: 15em;
+  height: 15em;
+}
+
+article {
+  font-size: 20px;
+  display: inline;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+button {
+  background-color: palegreen;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  margin: 2rem;
 }
 
 h1 {
-  font-size: 40px;
-  line-height: 200%;
-  border: 1px solid black;
+  font-size: 4rem;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  padding: 1rem 1.5rem;
+}
+
+@media only screen and (max-width: 720px) {
+  html {
+    font-size: 14px;
+  }
+  section {
+    width: 350px;
+    height: 350px;
+  }
 }
