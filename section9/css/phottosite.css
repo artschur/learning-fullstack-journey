@@ -1,0 +1,21 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section img {
+  width: 32%;
+  padding-bottom: 5%; /* Same as width, sets height */
+  margin-left: 2em;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+  position: relative;
+}
+
+nav {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.75em;
+}
+* {
+  margin: 0;
+}

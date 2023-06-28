@@ -1,6 +1,7 @@
 section {
   width: 500px;
   height: 500px;
+  opacity: 0.6;
   background-color: magenta;
 }
 
@@ -8,5 +9,5 @@ div {
   width: 50%;
   height: 50%;
   background-color: #2b2a33;
-  opacity: 0.9;
+  opacity: 1;
 }
