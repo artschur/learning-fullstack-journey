@@ -1,20 +1,50 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: rgb(10, 10, 10);
 }
 
 h1 {
     font-size: 6em;
     text-align: center;
+    color: rgb(83, 142, 253);
 }
 nav {
     font-size: 1.5em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4%;
 }
 
 ul,li {
-    display: inline;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    margin: 0 3%;
+    
+    
+}
+
+ul{
+
+    display: flex;
+
+}
+
+a{
+    color: rgb(83, 142, 253);
+    text-decoration: none;
 }
 
 
+@media (max-width: 768px){
+    h1 {
+        font-size: 4em;
+    }
 
+    nav, nav ul, ul li {
+        flex-direction: row;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+}
