@@ -1,0 +1,17 @@
+.container {
+  margin: 5rem;
+}
+
+.btn {
+  margin-top: 1rem;
+}
+
+body {
+  background-color: #212121;
+}
+
+#spotify {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}

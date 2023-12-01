@@ -1,69 +1,65 @@
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
 }
 
 h1 {
-    text-align: center;
-    font-weight: bold;
-    padding: 0;
-    margin: 0;
+  text-align: center;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
 }
 #container {
-    background-color: #003049;
-    width: 90%;
-    height: 14rem;
-    margin: 5rem auto;
-    display: flex;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
-    justify-content:center;
-    flex-basis: auto;
-    /*y axis ;  */
-    align-items: center;
+  background-color: #003049;
+  width: 90%;
+  height: 14rem;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  flex-basis: auto;
+  /*y axis ;  */
+  align-items: center;
 
-    /* space between items */
-    
-    align-content: space-evenly;
-    
+  /* space between items */
 
+  align-content: space-evenly;
 }
 
 #container div {
-    width: 10rem;
-    height: 10rem;
-    font-size: 4rem;
-    text-align: center;
-    flex-basis: 20rem;
+  width: 10rem;
+  height: 10rem;
+  font-size: 4rem;
+  text-align: center;
+  flex-basis: 20rem;
 
-    text-transform: lowercase;
-
+  text-transform: lowercase;
 }
 
-
-div:nth-of-type(1){
-    flex-grow: 1;
+div:nth-of-type(1) {
+  flex-grow: 1;
 }
-div:nth-of-type(5){
-    flex-grow: 2;
-}
-
-main{
-    border: 5px solid black;
-    height: 500px;
-    margin: 0 auto;
-    display: flex;
-    width: 80%;
+div:nth-of-type(5) {
+  flex-grow: 2;
 }
 
-main .sidebar{
-    background-color: blueviolet;
-    border: 2px white;
-    flex: 1 2 300px;
-    
+main {
+  border: 5px solid black;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  width: 80%;
 }
 
-main .maincontent{
-    background-color: #003049;
-    flex: 2 800px;
+main .sidebar {
+  background-color: blueviolet;
+  border: 2px white;
+  flex: 1 2 300px;
+}
+
+main .maincontent {
+  background-color: #003049;
+  flex: 2 800px;
 }
